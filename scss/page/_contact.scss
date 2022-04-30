@@ -74,7 +74,7 @@
 		height: 884px;
 		right: -577px;
 		top: 0;
-		background-image: url('/images/logo-banner-bg-before.png');
+		background-image: url('./images/logo-banner-bg-before.png');
 		z-index: -1;
 	}
 	&::after{
@@ -85,7 +85,7 @@
 		left: -90px;
 		bottom: 0;
 		opacity: 0.1;
-		background-image: url('/images/logo-banner.png');
+		background-image: url('./images/logo-banner.png');
 		background-repeat: no-repeat;
 		background-size: contain;
 		z-index: -1;
