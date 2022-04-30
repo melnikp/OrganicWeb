@@ -1,0 +1,24 @@
+#blog{
+margin: 0 0 81px 0;
+}
+.blog-text{
+	padding-bottom: 80px;
+	position: relative;
+	img{
+		position: absolute;
+		top: -65px;
+		left: 50%;
+		transform: translate(-50%,0);
+	}
+	h2{
+		margin: 0 0 19px 0;
+		font-size: $h2-font-size;
+	}
+	p{
+		padding: 0 26px 0 0;
+		@include media-breakpoint-down(md){
+			padding: 0;
+		}
+	}
+}
+

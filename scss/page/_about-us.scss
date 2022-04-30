@@ -1,0 +1,61 @@
+#about-us{
+	position: relative;
+	overflow: hidden;
+	margin: 107px 0 183px 0;
+	.container{
+		position: relative;
+		z-index: 2;
+	}
+	p{
+		font-size: 20px;
+		line-height: 30px;
+	}
+	h2{
+		margin: 0 0 22px 0;
+		font-weight: 700;
+	}
+	#organic-food-card{
+		margin: 65px 0 65px 0;
+	}
+
+}
+.about-us-container{
+	p{
+		padding: 0 0 47px 0;
+	}
+}
+
+.what-we-do-container{
+
+	text-align: center;
+	h2{
+		margin: 90px 0 0 0;
+	}
+}
+
+#about-us .container-1440{
+	position: relative;
+	&::before{
+		content: '';
+		position: absolute;
+		width: 835px;
+		height: 884px;
+		right: -577px;
+		top: 0;
+		background-image: url('/images/logo-banner-bg-before.png');
+		z-index: -1;
+	}
+	&::after{
+		content: '';
+		position: absolute;
+		width: 378px;
+		height: 364px;
+		left: -90px;
+		bottom: 0;
+		opacity: 0.1;
+		background-image: url('/images/logo-banner.png');
+		background-repeat: no-repeat;
+		background-size: contain;
+		z-index: -1;
+	}
+}

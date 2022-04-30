@@ -1,0 +1,44 @@
+.btn{
+	display: inline-block;
+	padding: 11px 42px;
+	border-radius: 10px;
+	border: solid 2px $brand-color2;
+	&:hover{
+		background-color: $brand-color2;
+		color: $white;
+	}
+}
+.btn_mirror{
+	display: inline-block;
+	padding: 11px 42px;
+	border-radius: 10px;
+	background-color: $brand-color2;
+	border: solid 2px $brand-color2;
+	color: $white;
+	&:hover{
+		background-color: transparent;
+	}
+}
+.btn_subscribe{
+	display: inline-block;
+	padding: 21px 45px 24px 45px;
+	border-radius: 30px;
+	border: solid 2px $brand-color2;
+	background-color: $brand-color2;
+	color: $white;
+	transition: all 0.3s ease-out;
+	&:hover{
+		background-color: transparent;
+		color: $brand-color;
+	}
+}.btn_card{
+	display: inline-block;
+	padding: 7px 29px 8px 15px;
+	margin: 8px 0 13px 0;
+	border-radius: 10px;
+	border: solid 2px $brand-color2;
+	&:hover{
+		background-color: $brand-color2;
+		color: $white;
+	}
+}

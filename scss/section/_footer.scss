@@ -1,0 +1,126 @@
+#footer{
+	position: relative;
+	color: $white;
+	padding: 115px 0 0 0;
+	.container-1440{
+		background-color: $brand-color;
+		padding: 0 0 50px 0;
+		position: relative;
+		overflow: unset;
+		&::before{
+			content: '';
+			position: absolute;
+			top: -98px;
+			width: 100%;
+			height: 100px;
+			background-image: url('/images/footer.svg');
+			background-size: cover ;
+			background-repeat: no-repeat;
+		}
+	}
+	.logo{
+		font-size: 31px;
+		&:hover{
+			color: $white;
+		}
+	}
+	p{
+		font-size: 14px;
+	}
+
+	a{
+		color: $white;
+		&:hover{
+			color: $brand-color2;
+		}
+	}
+
+	ul{
+		padding: 0;
+		margin: 0;
+		list-style: none;
+	}
+	span{
+		font-size: 16px;
+		font-weight: 700;
+		display: block;
+		position: relative;
+		&::before{
+			content: '';
+			position: absolute;
+			top: 36px;
+			width: 54px;
+			height: 2px;
+			background-color: $brand-color2;
+			@include media-breakpoint-down(sm){
+				left: 50%;
+				transform: translate(-50%,0);
+			}		
+		}
+	}
+}
+.footer-text{
+margin: 31px 0 43px 0;
+}
+.copyright{
+	font-weight: 700;
+	position: relative;
+	&::before{
+		content: '';
+		position: absolute;
+		top: -12px;
+		width: 77px;
+		height: 2px;
+		background-color: $brand-color2;
+	}
+}
+.footer-link{
+	ul{
+		:not(:last-child){
+			margin: 0 0 16px 0;
+		}
+	}
+	>ul{
+		:first-child{
+			margin: 32px 0 16px 0
+		}
+	}
+	li{
+		font-size: 14px;
+		font-weight: 400;
+	}
+	@include media-breakpoint-down(lg){
+		margin: 0 0 50px 0;
+		order: 3;
+	}
+	@include media-breakpoint-down(sm){
+		text-align: center;
+	}
+}
+.footer-social{
+	span{
+		margin: 0 0 29px 0;
+	}
+	ul{
+		padding: 29px 0 0 0;
+		:not(:last-child){
+			margin: 0 20px 0 0;
+		}
+
+		@include media-breakpoint-down(sm){
+			justify-content: center;		}
+	}
+
+	@include media-breakpoint-down(lg){
+		margin: 0 0 50px 0;
+	}
+	@include media-breakpoint-down(md){
+		order: 2;
+	}
+	@include media-breakpoint-up(sm){
+		order: 3;
+	}
+	@include media-breakpoint-down(sm){
+		text-align: center;
+	}
+}

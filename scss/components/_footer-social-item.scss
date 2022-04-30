@@ -1,0 +1,27 @@
+.footer-social-item{
+	display: inline-flex;
+	width: 31px;
+	height: 31px;
+	border-radius: 50%;
+	background-color: $white;
+	fill: $brand-color;
+	&:hover{
+		fill: $brand-color2;
+	}
+}
+.facebook{
+	position: relative;
+	height: 24px;
+	width: auto;
+	top: 7px;
+	left: 11px;
+
+}
+.linkedin,.twitter,.instagram{
+	width: 22px;
+	height: 22px;
+	margin: 0 auto;
+	position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+}

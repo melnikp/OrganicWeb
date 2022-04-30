@@ -1,0 +1,26 @@
+@import 'base/index';
+@import 'vendors/custom';
+@import 'components/index';
+@import 'section/index';
+
+@import 'page/contact';
+@import 'page/about-us';
+@import 'page/products';
+@import 'page/blog';
+
+body{
+overflow-x: hidden;
+}
+.container-1440{
+	max-width: 1440px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+#contact-form input:invalid{
+	border-color: rgb(239, 84, 84);
+}
+#subscribe-form-input:invalid{
+	border-radius: 30px;
+	border: solid 2px  rgb(239, 84, 84);
+}

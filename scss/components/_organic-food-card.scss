@@ -1,0 +1,37 @@
+#organic-food-card{
+	text-align: center;
+	position: relative;
+	z-index: 4;
+}
+.organic-food-card-item{
+	@media (max-width: 1199px){
+		margin: 0 0 50px 0;
+	}
+}
+#organic-food-card a{
+	padding: 52px 51px 21px 51px;
+	margin: 0 17px 0 17px;
+	border-radius: 20px;
+	border: 1px dashed $brand-color;
+
+	p{
+		font-size: 14px;
+	}
+	h3{
+		margin: 27px 0 14px 0;
+		font-weight: 700;
+	}
+	.organic-food-card-item-icon{
+		fill: $brand-color2;
+	}
+	&:hover{
+		background-color: $brand-color2;
+		color: $white;
+		h3{
+			color: $white;
+		}
+		.organic-food-card-item-icon{
+			fill: $white;
+		}
+	}
+}

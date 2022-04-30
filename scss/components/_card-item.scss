@@ -1,0 +1,42 @@
+.card-item {
+	max-width: 50%;
+	font-size: 14px;
+	border-radius: 20px 20px 0 0;
+	p{
+		margin: 0;
+	}
+	@include media-breakpoint-down(sm){
+		max-width: 80%;
+		margin: 0 0 20px 0;
+	}
+}
+.card-img {
+	width: 100%;
+	border-radius: 20px 20px 0 0;
+
+}
+.card-text {
+	padding: 18px 44px 13px 44px;
+	text-align: center;
+	.card-text-h {
+		font-size: 18px;
+		color: $brand-color2;
+		margin: 0 0 10px 0;
+	}
+
+}
+.card-link{
+	position: relative;
+	display: inline-block;
+	margin: 11px 0 14px 0;
+	&::before{
+		content: '';
+		position: absolute;
+		width: 36px;
+		height: 2px;
+		bottom: -10px;
+		left: 50%;
+		transform: translate(-50%,0);
+		background-color: $brand-color2;
+	}
+}

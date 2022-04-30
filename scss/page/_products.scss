@@ -1,0 +1,20 @@
+#products{
+	padding: 0 0 47px 0;
+}
+.products-text{
+	text-align: center;
+	padding: 71px 0 60px 0;
+	h2{
+		font-weight: 700;
+		margin: 0 0 22px 0;
+	}
+	p{
+		line-height: 30px;
+	}
+}
+.row-card{
+	padding: 0 0 106px 0;
+	@include media-breakpoint-down(sm) {
+		padding: 0;
+	}
+}
