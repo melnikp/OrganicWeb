@@ -7538,7 +7538,7 @@ progress {
   height: 884px;
   left: -257px;
   top: -210px;
-  background-image: url("/images/logo-banner-bg-before.png");
+  background-image: url("../images/logo-banner-bg-before.png");
   z-index: -1;
 }
 
@@ -7549,7 +7549,7 @@ progress {
   height: 629px;
   left: -299px;
   top: 17px;
-  background-image: url("/images/logo-banner-bg-after.png");
+  background-image: url("../images/logo-banner-bg-after.png");
   z-index: 1;
 }
 
@@ -7710,7 +7710,7 @@ progress {
   height: 884px;
   right: -577px;
   top: 0;
-  background-image: url("/images/logo-banner-bg-before.png");
+  background-image: url("../images/logo-banner-bg-before.png");
   z-index: -1;
 }
 
@@ -7721,7 +7721,7 @@ progress {
   height: 884px;
   left: -577px;
   top: 0;
-  background-image: url("/images/logo-banner-bg-before.png");
+  background-image: url("../images/logo-banner-bg-before.png");
   z-index: -1;
 }
 
@@ -7927,7 +7927,7 @@ progress {
   top: -98px;
   width: 100%;
   height: 100px;
-  background-image: url("/images/footer.svg");
+  background-image: url("../images/footer.svg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -8193,7 +8193,7 @@ progress {
   height: 884px;
   right: -577px;
   top: 0;
-  background-image: url("./images/logo-banner-bg-before.png");
+  background-image: url("../images/logo-banner-bg-before.png");
   z-index: -1;
 }
 
@@ -8205,7 +8205,7 @@ progress {
   left: -90px;
   bottom: 0;
   opacity: 0.1;
-  background-image: url("./images/logo-banner.png");
+  background-image: url("../images/logo-banner.png");
   background-repeat: no-repeat;
   background-size: contain;
   z-index: -1;
@@ -8259,7 +8259,7 @@ progress {
   height: 884px;
   right: -577px;
   top: 0;
-  background-image: url("./images/logo-banner-bg-before.png");
+  background-image: url("../images/logo-banner-bg-before.png");
   z-index: -1;
 }
 
@@ -8271,7 +8271,7 @@ progress {
   left: -90px;
   bottom: 0;
   opacity: 0.1;
-  background-image: url("./images/logo-banner.png");
+  background-image: url("../images/logo-banner.png");
   background-repeat: no-repeat;
   background-size: contain;
   z-index: -1;

@@ -17,7 +17,7 @@
 		height: 884px;
 		right: -577px;
 		top: 0;
-		background-image: url('/images/logo-banner-bg-before.png');
+		background-image: url('../images/logo-banner-bg-before.png');
 		z-index: -1;
 	}
 	&::after{
@@ -27,7 +27,7 @@
 		height: 884px;
 		left: -577px;
 		top: 0;
-		background-image: url('/images/logo-banner-bg-before.png');
+		background-image: url('../images/logo-banner-bg-before.png');
 		z-index: -1;
 	}
 }
