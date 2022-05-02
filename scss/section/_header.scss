@@ -96,7 +96,7 @@
 		height: 884px;
 		left: -257px;
 		top: -210px;
-		background-image: url('./images/logo-banner-bg-before.png');
+		background-image: url('/images/logo-banner-bg-before.png');
 		z-index: -1;
 	}
 	&::after{
@@ -106,7 +106,7 @@
 		height: 629px;
 		left: -299px;
 		top: 17px;
-		background-image: url('./images/logo-banner-bg-after.png');
+		background-image: url('/images/logo-banner-bg-after.png');
 		z-index: 1;
 	}
 	@include media-breakpoint-down(lg) {
